@@ -1,4 +1,6 @@
-# Mediculum OS: Medical College Operating System
+# Mediculum OS: Medical College Operating System (Discontinued)
+
+> **Status: discontinued.** Mediculum OS is no longer an active product. This page is kept as a record of its architecture and design decisions.
 
 > **Architecture case study.** Source code is private and owned by Start Daily xyz Limited. This repository contains original documentation only: no source code, data or credentials.
 
@@ -8,7 +10,7 @@ Medical colleges share a common operating pattern (admissions, academic structur
 
 ## Solution
 
-Mediculum OS is Start Daily's own product that generalises the architecture proven in client delivery into a reusable platform: role-based portals over one shared, policy-protected data model, configurable per institution.
+Mediculum OS was Start Daily's own product. It generalised the architecture proven in client delivery into a reusable platform: role-based portals over one shared, policy-protected data model, configurable per institution. The product has since been discontinued.
 
 ## Architecture
 
