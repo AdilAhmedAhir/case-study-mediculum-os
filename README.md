@@ -4,14 +4,6 @@
 
 > **Architecture case study.** Source code is private and owned by Start Daily xyz Limited. This repository contains original documentation only: no source code, data or credentials.
 
-## Problem
-
-Medical colleges share a common operating pattern (admissions, academic structure, attendance, assessments, library, fees) but are usually served by generic school software or one-off builds.
-
-## Solution
-
-Mediculum OS was Start Daily's own product. It generalised the architecture proven in client delivery into a reusable platform: role-based portals over one shared, policy-protected data model, configurable per institution. The product has since been discontinued.
-
 ## Architecture
 
 ```mermaid
@@ -25,6 +17,14 @@ flowchart LR
   SH --> OBJ[(S3-compatible object storage<br/>documents and media)]
   IMP[Spreadsheet import pipeline] --> DB
 ```
+
+## Problem
+
+Medical colleges share a common operating pattern (admissions, academic structure, attendance, assessments, library, fees) but are usually served by generic school software or one-off builds.
+
+## Solution
+
+Mediculum OS was Start Daily's own product. It generalised the architecture proven in client delivery into a reusable platform: role-based portals over one shared, policy-protected data model, configurable per institution. The product has since been discontinued.
 
 ## Modules
 
